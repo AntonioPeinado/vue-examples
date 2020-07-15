@@ -1,26 +1,27 @@
 <template>
   <div>
     <h2>Directive</h2>
-    <input type="text" v-autoFocus>
+    <input type="text" v-autoFocus />
+    <p v-color="color">hello</p>
+    <p v-colorShorcut="'green'">world</p>
   </div>
 </template>
 
 <script>
 /* eslint-disable no-debugger */
-const autoFocus = {
-    inserted(el){
-        el.focus()
-    },
-}
-
-// const color = {
-//     bind(el, binding){
-//         debugger;
-//     },
-// }
+import {color, colorShorcut, autoFocus} from './directives';
 
 export default {
   name: "Directive",
-  directives: {autoFocus}
+  data() {
+    return {
+      color: "red"
+    };
+  },
+  directives: {
+    autoFocus,
+    color,
+    colorShorcut
+  }
 };
 </script>

@@ -10,4 +10,5 @@ const vm = new Vue({
   render: h => h(App),
 })
 
+
 vm.$mount('#app');

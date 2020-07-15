@@ -30,6 +30,7 @@
     <p>{{value}}</p>
     <!-- <Lifecycle :foo="12"/> -->
     <Directive />
+    <Filters />
   </div>
 </template>
 
@@ -47,6 +48,7 @@ import Model from './examples/Model.vue';
 import CustomInput from './examples/CustomInput.vue';
 // import Lifecycle from './examples/Lifecycle.vue';
 import Directive from './examples/Directive.vue';
+import Filters from './examples/Filters.vue';
 
 export default {
   // nombre del componente
@@ -65,7 +67,8 @@ export default {
     Model,
     CustomInput,
     // Lifecycle,
-    Directive	
+    Directive	,
+    Filters
   },
   methods: {
     onMyEvent(a, b) {
