@@ -49,7 +49,6 @@ import CustomInput from './examples/CustomInput.vue';
 // import Lifecycle from './examples/Lifecycle.vue';
 import Directive from './examples/Directive.vue';
 import Filters from './examples/Filters.vue';
-
 export default {
   // nombre del componente
   name: "App",
