@@ -1,6 +1,10 @@
 import Vue from 'vue'
-// import App from './App.vue'
-import Login from './Login.vue';
+import {store} from './redux/store';
+// import App from './examples/App.vue'
+// import Login from './login/Login.vue';
+// import Redux from './redux/Redux.vue';
+import Counter from './redux/Counter';
+
 Vue.config.productionTip = false
 
 // para iniciar una aplicación de Vue, creamos una nueva instancia
@@ -8,7 +12,8 @@ Vue.config.productionTip = false
 // esa instacia la pintamos en un elemento del DOM con el método $mount
 // que recibe un selector css para referenciar a ese elemento
 const vm = new Vue({
-  render: h => h(Login),
+  store,
+  render: h => h(Counter),
 })
 
 
