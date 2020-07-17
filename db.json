@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "password": "1234141241",
+      "email": "test@test.com",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "password": "1234141241",
+      "email": "test@test.com",
+      "id": 4
+    },
+    {
+      "password": "1234141241",
+      "email": "test@test.com",
+      "id": 5
+    },
+    {
+      "password": "123123",
+      "email": "test@test.com",
+      "id": 6
+    },
+    {
+      "password": "123qwe",
+      "email": "test@test.com",
+      "id": 7
+    }
+  ]
+}
